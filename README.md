@@ -1,9 +1,7 @@
 # LibrarySystem
-This is used for test buildkite integration.
-
-# LibrarySystem
 
 This is simple library application using Laravel 5.5
+This is used for test buildkite integration.
 
 ### Setup development environment
 
