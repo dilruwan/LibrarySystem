@@ -1,7 +1,8 @@
 steps:
   - label: Example Test
     command: echo "Hello!"
-  - label: Composer Install
-    command: composer install
-  - label: PHP Unit Tests
-    command: vendor/bin/phpunit
+
+  - wait
+
+  - label: Composer Install & PHP Unit Tests
+    command: composer install\nvendor/bin/phpunit
