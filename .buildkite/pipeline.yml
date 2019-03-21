@@ -4,5 +4,5 @@ steps:
 
   - wait
 
-  - label: Composer Install & PHP Unit Tests
+  - label: Composer Update & PHP Unit Tests
     command: composer update \n vendor/bin/phpunit
