@@ -9,5 +9,5 @@ steps:
 
   - wait
 
-    - label: PHP Unit Tests
-      command: vendor/bin/phpunit
+  - label: PHP Unit Tests
+    command: vendor/bin/phpunit
