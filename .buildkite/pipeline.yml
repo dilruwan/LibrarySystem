@@ -1,0 +1,8 @@
+steps:
+  - label: Example Test
+    command: echo "Hello!"
+
+  - wait
+
+  - label: Composer Update & PHP Unit Tests
+    command: composer update\nvendor/bin/phpunit
